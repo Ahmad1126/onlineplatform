@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Welcome to the Online Learning Platform</title>
+    <title>Online Learning Platform</title>
     <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
@@ -14,7 +14,7 @@
     
         /* Set a background color for the entire page */
         body {
-            background-color: #f8f9fa; /* Light gray background */
+            background-color: #000000; /* black background */
             font-family: Arial, sans-serif;
         }
     
@@ -98,22 +98,7 @@
     <!-- "Welcome to the Online Learning Platform" heading outside of cards -->
     <div class="container mt-4">
         <div class="advanced-heading">
-            <h2 class="text-center font-weight-bold">Welcome to the Online Learning Platform</h2>
-        </div>
-    </div>
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://venteskraft.net/wp-content/uploads/2022/02/liz-gross-signup.gif"
-                        class="card-img-top" alt="Sign Up">
-                    <div class="card-body">
-                        
-                        <a href="{{ url_for('signup') }}" class="btn btn-primary btn-block">Sign Up</a>
-                    </div>
-                </div>
-            </div>
+            <h2 class="text-center font-weight-bold"> Online Learning Platform</h2>
         </div>
     </div>
 
@@ -121,7 +106,7 @@
     <div class="row mt-3 justify-content-center">
         <div class="col-md-4">
             <div class="card">
-                <img src="  https://i.pinimg.com/1200x/a9/01/90/a90190c19c9ee63ec43abb53f096eab5.jpg" class="card-img-top mx-auto d-block" alt="Student Login" style="width: 300px; height: 200px;">
+                <img src="https://www.pngkey.com/png/detail/12-123249_teacher-teacher-login.png" alt="Teacher - Teacher Login@pngkey.com"  class="card-img-top mx-auto d-block" alt="Student Login" style="width: 300px; height: 200px;">
                 <div class="card-body">
                     <h3 class="card-title text-center">Teacher Login</h3>
                     <a href="{{ url_for('teacher_login') }}" class="btn btn-success btn-block">Login</a>
@@ -131,7 +116,7 @@
       
         <div class="col-md-4">
             <div class="card">
-                <img src="https://i.pinimg.com/736x/0e/a3/5c/0ea35c1fc91bfe6494cd0caed7ce9ffc.jpg" class="card-img-top mx-auto d-block" alt="Teacher Login" style="width: 300px; height: 200px;">
+                <img src="data:image/jpeg;base64,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" class="card-img-top mx-auto d-block" alt="Teacher Login" style="width: 300px; height: 200px;">
                 <div class="card-body">
                     <h3 class="card-title text-center">Student Login</h3>
                     <a href="{{ url_for('student_login') }}" class="btn btn-info btn-block">Login</a>
@@ -139,10 +124,24 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://thumbs.dreamstime.com/b/sign-up-member-icon-prime-orange-round-button-sign-up-member-icon-isolated-prime-orange-round-button-abstract-illustration-105944227.jpg"
+                        class="card-img-top" alt="Sign Up">
+                    <div class="card-body">
+                        
+                        <a href="{{ url_for('signup') }}" class="btn btn-primary btn-block">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
 
     </div>
-
     <!-- Include Bootstrap JS and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
