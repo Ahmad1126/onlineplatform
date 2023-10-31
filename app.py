@@ -241,7 +241,7 @@ def send_email():
 def start_npm():
     try:
         # Replace 'your_frontend_project_path' with the actual path to your frontend project
-        frontend_project_path = r'C:\Users\AHMAD RAZA\OneDrive\Desktop\Online'
+        frontend_project_path = r'C:\Users\AHMAD RAZA\OneDrive\onlinelearningplatform'
 
         # Change the current working directory to the frontend project path
         os.chdir(frontend_project_path)
